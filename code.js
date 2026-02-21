@@ -3,7 +3,7 @@ const animals = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","R
 const text = document.querySelector(".title");
 const changeColor = document.querySelector(".newColor");
 
-text.classList.add('change');
+text.classList.add("change");
 
 for (animal of animals) {
     console.log("your animal is a " + animal);
