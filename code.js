@@ -3,3 +3,7 @@ const animals = ["Rat","Ox,","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","
 for (animal of animals) {
     console.log("your animal is a " + animal);
 }
+
+let loading = 0;
+
+while(loading < 100)
