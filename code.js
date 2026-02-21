@@ -3,7 +3,7 @@ const animals = ["Rat","Ox,","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","
 const text = document.querySelector(".title")
 const changecolor = document.querySelector(".newcolor")
 
-text.style.color = "blue";
+text.style.backgroundColor = "blue";
 
 for (animal of animals) {
     console.log("your animal is a " + animal);
