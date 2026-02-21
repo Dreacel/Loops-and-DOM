@@ -6,4 +6,8 @@ for (animal of animals) {
 
 let loading = 0;
 
-while(loading < 100)
+while(loading < 100){
+    console.log("website is loading");
+
+    loading++;
+}
