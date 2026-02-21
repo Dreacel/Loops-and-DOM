@@ -4,7 +4,7 @@ const text = document.querySelector(".title")
 const changeColor = document.querySelector(".newColor")
 
 changeColor.addEventListener('click', function () {
-    text.classList.toggle('change');
+    text.classList.toggle('#change');
 });
 
 for (animal of animals) {
