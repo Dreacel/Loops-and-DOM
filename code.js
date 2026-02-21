@@ -3,8 +3,8 @@ const animals = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","R
 const text = document.querySelector(".title")
 const changeColor = document.querySelector(".newcolor")
 
-changeColor.addEventListener('click', function(){
-    text.classList.add("change");
+changeColor.addEventListener('click', function () {
+    text.classList.toggle("change");
 });
 
 for (animal of animals) {
