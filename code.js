@@ -1,9 +1,9 @@
-const animals = ["Rat","Ox,","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","Rooster","Dog","Pig"];
+const animals = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Goat","Monkey","Rooster","Dog","Pig"];
 
 const text = document.querySelector(".title")
 const changecolor = document.querySelector(".newcolor")
 
-text.classList.add("new");
+text.classList.add('change');
 
 for (animal of animals) {
     console.log("your animal is a " + animal);
